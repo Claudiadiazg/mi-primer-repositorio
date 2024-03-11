@@ -1,0 +1,64 @@
+.titulo{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows:  250px  auto;
+    grid-template-areas: "fondo  fondo"
+    "perfil habilidades";
+    background-color:rgb(248, 245, 245);
+    font-family: Arial;
+    border-style: double;
+
+
+
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    margin-top: 30px;
+    
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(148, 148, 233);
+    font-family: Arial;
+
+}
+
+
+
+
+.fondo{
+    background-image: url('./imagen/R.jpg');
+    grid-area: fondo;
+    background-size: cover;
+    display: flex;
+    padding: 25px;
+    
+
+}
+.perfil{
+    grid-area: perfil;
+    font-family: Arial;
+    
+}
+
+.habilidades{
+    grid-area: habilidades;
+    background-color: aliceblue ;
+    font-family: Arial;
+
+}
+
+
+
+.firma{
+    font-family: Arial;
+    display:flex;
+    justify-content: center;
+ 
+}
